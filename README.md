@@ -13,11 +13,17 @@ This repository holds the installers only; the source is private.
 
 Needs 64-bit Windows 10 or 11; .NET is included. A portable zip is in each release too.
 
+## Activation
+
+Signal Lab needs a **license for your PC** to run. On first start it shows your PC's **machine code**
+(`SLAB-XXXX-XXXX-XXXX-XXXX`, with a Copy button): send it to the publisher, then choose **Load license file…** and pick the
+`.lic` file you receive. A license is valid for **one year**; Help › License shows its dates and loads a renewal. Your license
+is kept in `C:\Trading\license` and survives updates and reinstalls.
+
 ## Updates
 
 Signal Lab checks this repository once a day (**Help › Check for updates**) and installs a newer version after checking its
-SHA-256 against the release's `release.json`. Your data, models, settings and keys in `C:\Trading` are never touched by an
-install, update or uninstall.
+SHA-256. Your data, models, settings, keys and license in `C:\Trading` are never touched by an install, update or uninstall.
 
 ## Checksums
 
